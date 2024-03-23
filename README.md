@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://github.com/virajmavani/dosadi-ui/blob/160d95e590916146dd331b024a00fc5c9a2b2462/public/demo.mov
+https://github.com/virajmavani/dosadi-ui/assets/18478404/958384db-9c4f-4df4-bb8a-236e166c3c25
 
 ## Getting Started
 
