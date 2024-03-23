@@ -32,7 +32,7 @@ const LandingPage = () => {
         if (cache) {
             responseText = cache;    
         } else {
-            responseText = (await callDosadiApi()).data;
+            responseText = (await callDosadiApi()).data.output;
         }
         setResponseText(responseText.toString());
         setResultsLoadingVisible(false);
@@ -117,7 +117,7 @@ const LandingPage = () => {
                 </div>
 
                 <div className="flex items-center">
-                    <Button className="w-full" onClick={handleSubmitButton}>Submit 🔎</Button>
+                    <Button className="w-full" onClick={handleSubmitButton}>Build Strategy 🔎</Button>
                 </div>
 
                 <div className={"flex flex-col items-center " + (resultsLabelVisible ? "visible" : "hidden")}>
